@@ -1,0 +1,15 @@
+#unit testcases
+#Test Case 1: Invalid Input
+Explaination:
+If a user requests for an item that is not the part of machine Product List (main.py / line 94)
+
+#Test Case 2: Add Ingredients
+In case of Ingredients running low, add Ingredients to machine
+Try to Prepare another beverages (main.py/ line 96-100)
+
+#Test Case 3: Check Unavailable Ingredients
+If a user requests for beverage, it first check if Ingredients are available or running low
+
+#Test case 4: Check Ingredient threshold
+Input:
+Increase/decrease "ingred_threshold" to check for Ingredients availablity
